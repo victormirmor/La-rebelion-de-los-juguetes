@@ -91,6 +91,40 @@ MonoBehaviour:
   dirtIntensity:
     overrideState: 1
     value: 0
+--- !u!114 &-3533964802111979497
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b77c5407dc277943b591ade9e6b18c5, type: 3}
+  m_Name: LensDistortion
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  intensity:
+    overrideState: 1
+    value: 15
+  intensityX:
+    overrideState: 0
+    value: 1
+  intensityY:
+    overrideState: 0
+    value: 1
+  centerX:
+    overrideState: 0
+    value: 0
+  centerY:
+    overrideState: 0
+    value: 0
+  scale:
+    overrideState: 0
+    value: 0.86
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +142,8 @@ MonoBehaviour:
   - {fileID: 1713660967882319768}
   - {fileID: 4486203465555915939}
   - {fileID: -5888936600573593728}
+  - {fileID: -3533964802111979497}
+  - {fileID: 2271328666800077407}
 --- !u!114 &1713660967882319768
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -130,10 +166,38 @@ MonoBehaviour:
     defaultState: 1
   intensity:
     overrideState: 1
-    value: 0.35
+    value: 0.642
   fastMode:
     overrideState: 1
     value: 1
+--- !u!114 &2271328666800077407
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65e486e4de6e5448a8fbb43dc8756a0, type: 3}
+  m_Name: Grain
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  colored:
+    overrideState: 0
+    value: 1
+  intensity:
+    overrideState: 0
+    value: 0
+  size:
+    overrideState: 0
+    value: 1
+  lumContrib:
+    overrideState: 0
+    value: 0.8
 --- !u!114 &4486203465555915939
 MonoBehaviour:
   m_ObjectHideFlags: 3
