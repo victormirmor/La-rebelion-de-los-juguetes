@@ -341,7 +341,7 @@ public partial class @Player: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""e8186459-e71d-4a5a-a69c-264fa426bb24"",
-                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""gamepad"",
@@ -375,6 +375,17 @@ public partial class @Player: IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""4c0296e6-4a82-4972-9eb5-c162611a55a1"",
                     ""path"": ""<Gamepad>/rightTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Fire1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7d12fdc3-59f4-46ef-af4f-acb04b01685a"",
+                    ""path"": ""<XInputController>/rightTrigger"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -922,6 +933,17 @@ public partial class @Player: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""992b35e3-1981-4db0-bc7b-d08e03744dcf"",
+                    ""path"": ""<Gamepad>/select"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Cancel"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""a39c3b81-caf1-4e8f-b834-2e19664852ab"",
                     ""path"": ""<Mouse>/position"",
                     ""interactions"": """",
@@ -1000,7 +1022,7 @@ public partial class @Player: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""b5c89fd1-5f39-4c2f-aa57-7c0bc06c211e"",
-                    ""path"": ""<Gamepad>/select"",
+                    ""path"": ""<Gamepad>/start"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""gamepad"",
